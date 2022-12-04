@@ -1,0 +1,45 @@
+/*CSS Global*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 90%;
+    margin: auto;
+
+}
+
+/*HEADER*/
+header{
+    background-color: #FFFFFF;
+    
+}
+
+header h1 {
+    color: #0E0578;
+}
+
+header a{
+    color: #686565;
+    text-decoration: none;
+}
+
+nav{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+
+nav ul {
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#logo{
+    flex: 2 1 40rem;
+}
