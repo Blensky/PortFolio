@@ -8,14 +8,16 @@
 body{
     width: 90%;
     margin: auto;
+    margin-top: 1rem;
+}
 
+/*Landpage*/
+
+.landpage{
+    background-color: #A8B4FF;
 }
 
 /*HEADER*/
-header{
-    background-color: #FFFFFF;
-    
-}
 
 header h1 {
     color: #0E0578;
@@ -42,4 +44,8 @@ nav ul {
 
 #logo{
     flex: 2 1 40rem;
+    min-height: 10vh;
 }
+
+
+/**/
